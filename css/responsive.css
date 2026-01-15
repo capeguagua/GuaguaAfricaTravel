@@ -1,0 +1,264 @@
+/* ========================================
+   Responsive CSS - Media Queries
+   ======================================== */
+
+/* Large Tablets & Small Desktops */
+@media (max-width: 1024px) {
+  /* Hero */
+  .hero-content { 
+    grid-template-columns: 1fr; 
+    gap: 48px; 
+    text-align: center; 
+  }
+  .hero-visual { order: -1; }
+  .hero-image-main { 
+    max-width: 320px; 
+    margin: 0 auto; 
+  }
+  .hero-image-stack { display: none; }
+  .evidence-bar { justify-content: center; }
+  .hero-actions { justify-content: center; }
+  
+  /* About */
+  .about-grid { grid-template-columns: 1fr; }
+  .travelers-grid { grid-template-columns: repeat(2, 1fr); }
+  
+  /* Services */
+  .services-grid { 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px;
+  }
+  
+  /* Journeys */
+  .journeys-grid { grid-template-columns: 1fr; }
+  
+  /* Process */
+  .process-grid { 
+    flex-direction: column; 
+    align-items: center; 
+  }
+  .process-connector { 
+    width: 2px; 
+    height: 40px; 
+    margin: 0;
+    background: linear-gradient(180deg, var(--sage-200), var(--frog-300));
+  }
+  .process-connector::after { 
+    right: -3px; 
+    top: auto; 
+    bottom: -4px; 
+  }
+  
+  /* Why */
+  .why-grid { grid-template-columns: 1fr; }
+  
+  /* Footer */
+  .footer-main { 
+    grid-template-columns: 1fr; 
+    gap: 40px; 
+  }
+  .footer-brand { 
+    max-width: none; 
+    text-align: center; 
+  }
+  .footer-logo { justify-content: center; }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  html { 
+    font-size: 14px;
+  }
+  
+  /* Header */
+  .menu-btn { display: flex; }
+  
+  .nav-links {
+    position: fixed;
+    top: 66px; 
+    left: 16px; 
+    right: 16px;
+    background: var(--white);
+    flex-direction: column;
+    padding: 20px;
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-xl);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-12px);
+    transition: all 0.3s var(--ease-out);
+    z-index: 999;
+    border: 1px solid var(--sage-100);
+  }
+  
+  .nav-links.open { 
+    opacity: 1; 
+    visibility: visible; 
+    transform: translateY(0); 
+  }
+  
+  .nav-link { 
+    padding: 14px; 
+    text-align: center; 
+  }
+  
+  .nav-link-cta { 
+    margin-left: 0; 
+    margin-top: 8px; 
+  }
+  
+  /* Sections */
+  section {
+    min-height: auto;
+  }
+  
+  .hero-section { 
+    padding: 100px 20px 60px; 
+    min-height: auto; 
+  }
+  
+  .title-line { font-size: 2.2rem; }
+  .section-title { font-size: 1.7rem; }
+  
+  .about-section, 
+  .services-section, 
+  .journeys-section, 
+  .process-section, 
+  .why-section, 
+  .contact-section { 
+    padding: 80px 20px; 
+  }
+  
+  /* Services */
+  .services-grid { 
+    grid-template-columns: 1fr; 
+  }
+  
+  /* Travelers */
+  .travelers-grid { grid-template-columns: 1fr; }
+  
+  /* Footer */
+  .footer-links { 
+    grid-template-columns: 1fr; 
+    text-align: center; 
+  }
+  .footer-bottom { 
+    flex-direction: column; 
+    text-align: center; 
+    gap: 12px; 
+  }
+  
+  /* Contact */
+  .cta-buttons { 
+    flex-direction: column; 
+    align-items: stretch; 
+  }
+  .cta-buttons .btn { justify-content: center; }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .logo-text { display: none; }
+  .title-line { font-size: 1.9rem; }
+  
+  .evidence-bar { flex-direction: column; }
+  .evidence-item { justify-content: center; }
+  
+  .intel-grid { 
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .intel-item { justify-content: center; }
+  
+  /* Process Cards */
+  .process-card { 
+    flex: 0 0 auto; 
+    width: 100%; 
+  }
+  
+  /* Journey Cards */
+  .journey-footer { 
+    flex-direction: column; 
+    gap: 12px; 
+    align-items: flex-start;
+  }
+  
+  /* Modal */
+  .modal-content { 
+    padding: 28px 20px; 
+  }
+  
+  /* Section Headers */
+  .section-header { 
+    margin-bottom: 32px; 
+  }
+  
+  /* Contact CTA */
+  .contact-cta { 
+    padding: 32px 20px; 
+  }
+  .cta-mascot { 
+    font-size: 3rem; 
+  }
+}
+
+/* Very Small Mobile */
+@media (max-width: 360px) {
+  .title-line { font-size: 1.6rem; }
+  .hero-badge { 
+    font-size: 0.75rem; 
+    padding: 6px 12px; 
+  }
+  
+  .btn { 
+    padding: 12px 20px; 
+    font-size: 0.85rem; 
+  }
+  
+  .service-card,
+  .about-card,
+  .why-card { 
+    padding: 24px 20px; 
+  }
+}
+
+/* Landscape Mobile */
+@media (max-height: 600px) and (orientation: landscape) {
+  .hero-section { 
+    min-height: auto; 
+    padding: 100px 24px 40px; 
+  }
+  
+  section { 
+    min-height: auto; 
+  }
+}
+
+/* High DPI Screens */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .image-placeholder {
+    image-rendering: -webkit-optimize-contrast;
+  }
+}
+
+/* Print Styles */
+@media print {
+  .header,
+  .atmosphere-layer,
+  .modal-overlay,
+  .menu-btn,
+  .lang-toggle,
+  .cta-buttons { 
+    display: none !important; 
+  }
+  
+  section { 
+    page-break-inside: avoid; 
+    padding: 40px 0; 
+  }
+  
+  body {
+    color: #000;
+    background: #fff;
+  }
+}

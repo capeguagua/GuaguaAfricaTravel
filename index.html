@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Guagua Africa Travel - Scholar-led expeditions in South Africa. Eco-birding, cultural heritage & bespoke private tours by UCT doctoral guides.">
+  <title>Guagua Africa Travel | Discover the Depth & Soul of South Africa</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🐸%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Nunito:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/header-footer.css">
+  <link rel="stylesheet" href="css/sections.css">
+  <link rel="stylesheet" href="css/modal.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <div class="atmosphere-layer">
+    <div class="atmosphere-blob blob-1"></div>
+    <div class="atmosphere-blob blob-2"></div>
+    <div class="atmosphere-blob blob-3"></div>
+  </div>
+  
+  <header class="header" id="header">
+    <nav class="nav">
+      <a href="#hero" class="logo">
+        <div class="logo-icon">🐸</div>
+        <div class="logo-text">
+          <span class="logo-name">Guagua</span>
+          <span class="logo-tagline">AFRICA TRAVEL</span>
+        </div>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link" data-i18n="nav.about">About</a></li>
+        <li><a href="#services" class="nav-link" data-i18n="nav.services">Services</a></li>
+        <li><a href="#journeys" class="nav-link" data-i18n="nav.journeys">Journeys</a></li>
+        <li><a href="#process" class="nav-link" data-i18n="nav.process">How It Works</a></li>
+        <li><a href="#contact" class="nav-link nav-link-cta" data-i18n="nav.startPlanning">Start Planning</a></li>
+      </ul>
+      <div class="nav-right">
+        <button class="lang-toggle" id="langToggle" aria-label="Toggle Language">
+          <i data-lucide="globe" class="lang-icon"></i>
+          <span class="lang-text" id="langText">EN</span>
+          <i data-lucide="chevron-down" class="lang-arrow"></i>
+        </button>
+        <button class="menu-btn" id="menuBtn" aria-label="Menu">
+          <i data-lucide="menu" class="menu-icon"></i>
+          <i data-lucide="x" class="close-icon"></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+  
+  <main class="main-container">
+    <section id="hero" class="hero-section">
+      <div class="hero-content">
+        <div class="hero-text">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            <span data-i18n="hero.badge">Scholar-Led · Deep Exploration · Bespoke</span>
+          </div>
+          <h1 class="hero-title">
+            <span class="title-line" data-i18n="hero.titleLine1">Discover the Depth</span>
+            <span class="title-line title-accent" data-i18n="hero.titleLine2">& Soul of South Africa</span>
+          </h1>
+          <p class="hero-subtitle" data-i18n="hero.subtitle">Led by UCT doctoral researchers specializing in African Studies, Anthropology & Ecology. We transform travel into profound discovery.</p>
+          <div class="evidence-bar">
+            <div class="evidence-item"><i data-lucide="graduation-cap"></i><span data-i18n="hero.evidence.guides">UCT Scholar Guides</span></div>
+            <div class="evidence-item"><i data-lucide="leaf"></i><span data-i18n="hero.evidence.focus">Eco & Cultural Focus</span></div>
+            <div class="evidence-item"><i data-lucide="car"></i><span data-i18n="hero.evidence.private">Private & Flexible</span></div>
+            <div class="evidence-item"><i data-lucide="compass"></i><span data-i18n="hero.evidence.local">Local Intelligence</span></div>
+          </div>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary"><span data-i18n="hero.cta.primary">Start Your Journey</span><i data-lucide="arrow-right"></i></a>
+            <a href="#journeys" class="btn btn-secondary"><span data-i18n="hero.cta.secondary">View Sample Itineraries</span></a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-image-main">
+            <div class="image-placeholder"><i data-lucide="mountain"></i><span>Cape Town</span></div>
+            <div class="hero-image-badge"><span class="badge-emoji">🐸</span><strong data-i18n="hero.imageBadge">Travel with Guagua</strong></div>
+          </div>
+          <div class="hero-image-stack">
+            <div class="hero-image-small img-1"><div class="image-placeholder small"><i data-lucide="bird"></i></div></div>
+            <div class="hero-image-small img-2"><div class="image-placeholder small"><i data-lucide="sunset"></i></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about-section">
+      <div class="section-container">
+        <div class="section-header">
+          <div class="section-label"><i data-lucide="info"></i><span data-i18n="about.label">About Us</span></div>
+          <h2 class="section-title" data-i18n="about.title">A Boutique Travel Experience Unlike Any Other</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-card animate-on-scroll">
+            <div class="about-icon"><i data-lucide="award"></i></div>
+            <h3 data-i18n="about.whoWeAre.title">Who We Are</h3>
+            <p data-i18n="about.whoWeAre.content">Guagua Africa Travel is a boutique travel service rooted in Cape Town. Our founding team comprises doctoral researchers from the University of Cape Town (UCT), specializing in African Studies, Anthropology, and Ecology.</p>
+          </div>
+          <div class="about-card animate-on-scroll">
+            <div class="about-icon"><i data-lucide="target"></i></div>
+            <h3 data-i18n="about.mission.title">Our Mission</h3>
+            <p data-i18n="about.mission.content">We bridge the gap between sightseeing and true exploration. Every journey is a perfect fusion of academic insight and experiential travel.</p>
+          </div>
+          <div class="about-card animate-on-scroll">
+            <div class="about-icon"><i data-lucide="shield-check"></i></div>
+            <h3 data-i18n="about.ethics.title">Our Ethics</h3>
+            <p data-i18n="about.ethics.content">No feeding wildlife · No chasing animals · No disturbing ecosystems · Respectful cultural engagement · Supporting local communities</p>
+          </div>
+        </div>
+        <div class="ideal-travelers">
+          <h3 class="travelers-title" data-i18n="about.travelers.title">Our Ideal Travel Companions</h3>
+          <div class="travelers-grid">
+            <div class="traveler-card animate-on-scroll"><div class="traveler-icon">🦅</div><h4 data-i18n="about.travelers.nature.title">Nature & Eco Enthusiasts</h4><p data-i18n="about.travelers.nature.desc">Birders, botanists, wildlife photographers</p></div>
+            <div class="traveler-card animate-on-scroll"><div class="traveler-icon">📚</div><h4 data-i18n="about.travelers.cultural.title">Cultural Explorers</h4><p data-i18n="about.travelers.cultural.desc">History, anthropology, heritage seekers</p></div>
+            <div class="traveler-card animate-on-scroll"><div class="traveler-icon">👨‍👩‍👧</div><h4 data-i18n="about.travelers.family.title">Educational Families</h4><p data-i18n="about.travelers.family.desc">Nature education & scientific discovery</p></div>
+            <div class="traveler-card animate-on-scroll"><div class="traveler-icon">💎</div><h4 data-i18n="about.travelers.discerning.title">Discerning Travelers</h4><p data-i18n="about.travelers.discerning.desc">Couples & small groups seeking depth</p></div>
+          </div>
+          <div class="not-for-box"><i data-lucide="info"></i><p data-i18n="about.travelers.notFor">Not for: Travelers seeking rushed itineraries, budget tours, or checkbox tourism. We prioritize quality over quantity.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services-section">
+      <div class="section-container">
+        <div class="section-header">
+          <div class="section-label"><i data-lucide="compass"></i><span data-i18n="services.label">Our Services</span></div>
+          <h2 class="section-title" data-i18n="services.title">Four Core Experience Modules</h2>
+        </div>
+        <div class="services-grid">
+          <div class="service-card animate-on-scroll">
+            <div class="service-header"><span class="service-tag" data-i18n="services.eco.tag">Eco-Tourism & Birding</span></div>
+            <h3 data-i18n="services.eco.title">Deep Ecology & Birding</h3>
+            <p data-i18n="services.eco.desc">Led by certified birding experts. Track endemic species including African Penguins, Blue Cranes, and migratory swifts across wetlands and reserves.</p>
+            <div class="service-locations"><span>False Bay</span><span>Kirstenbosch</span><span>West Coast</span></div>
+          </div>
+          <div class="service-card animate-on-scroll">
+            <div class="service-header"><span class="service-tag" data-i18n="services.cultural.tag">Cultural Heritage</span></div>
+            <h3 data-i18n="services.cultural.title">Cape Town Cultural & Heritage</h3>
+            <p data-i18n="services.cultural.desc">City walks through the lens of history and anthropology. Explore the Castle of Good Hope, Bo-Kaap Cape Malay culture, and Chapman Peak Drive.</p>
+            <div class="service-locations"><span>Cape Peninsula</span><span>Table Mountain</span><span>Wine Estates</span></div>
+          </div>
+          <div class="service-card animate-on-scroll">
+            <div class="service-header"><span class="service-tag" data-i18n="services.garden.tag">Garden Route</span></div>
+            <h3 data-i18n="services.garden.title">Garden Route & Overland</h3>
+            <p data-i18n="services.garden.desc">Flexible pacing from Packed to Slow Travel. Explore Mossel Bay caves, Knysna lagoon, Tsitsikamma trails, and Oudtshoorn ostrich country.</p>
+            <div class="service-locations"><span>Human Origins</span><span>Oysters</span><span>Safari</span></div>
+          </div>
+          <div class="service-card animate-on-scroll">
+            <div class="service-header"><span class="service-tag" data-i18n="services.educational.tag">Educational Tours</span></div>
+            <h3 data-i18n="services.educational.title">Family & Educational</h3>
+            <p data-i18n="services.educational.desc">Leveraging UCT resources, we design nature education programs. Marine biology, botany, African art experiences, and university campus visits.</p>
+            <div class="service-locations"><span>Two Oceans</span><span>Art & Craft</span><span>UCT Campus</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="journeys" class="journeys-section">
+      <div class="section-container">
+        <div class="section-header">
+          <div class="section-label"><i data-lucide="route"></i><span data-i18n="journeys.label">Featured Journeys</span></div>
+          <h2 class="section-title" data-i18n="journeys.title">Scholar-Designed Sample Itineraries</h2>
+          <p class="section-desc" data-i18n="journeys.desc">Each journey is fully customizable based on your interests, schedule, and energy levels.</p>
+        </div>
+        <div class="journeys-grid">
+          <article class="journey-card animate-on-scroll">
+            <div class="journey-image">
+              <div class="image-placeholder"><i data-lucide="sunrise"></i></div>
+              <div class="journey-badge" data-i18n="journeys.journey1.badge">Most Popular</div>
+              <div class="journey-number" data-i18n="journeys.journey1.number">Cape Journal No.01</div>
+            </div>
+            <div class="journey-content">
+              <div class="journey-meta">
+                <span class="meta-item"><i data-lucide="clock"></i><span data-i18n="journeys.journey1.duration">1-2 Days</span></span>
+                <span class="meta-item"><i data-lucide="leaf"></i><span data-i18n="journeys.journey1.type">Eco Focus</span></span>
+              </div>
+              <h3 data-i18n="journeys.journey1.title">With the Migrants: Cape Peninsula Eco-Observation & Birding</h3>
+              <p data-i18n="journeys.journey1.desc">A scholar-designed ecological observation sample route. Learn how to observe nature.</p>
+              <div class="journey-for"><strong data-i18n="journeys.bestForLabel">Best For:</strong><span data-i18n="journeys.journey1.bestFor">Birders, photographers, nature lovers, families 8+</span></div>
+              <div class="journey-tags"><span class="method-tag">Ecological Observation</span><span>Photography</span><span>Family-friendly</span></div>
+              <div class="journey-footer">
+                <span class="journey-price" data-i18n="journeys.journey1.price">From USD 215/day</span>
+                <a href="#contact" class="btn btn-journey"><span data-i18n="journeys.customize">Customize This</span><i data-lucide="arrow-right"></i></a>
+              </div>
+            </div>
+          </article>
+          <article class="journey-card animate-on-scroll">
+            <div class="journey-image">
+              <div class="image-placeholder"><i data-lucide="building-2"></i></div>
+              <div class="journey-number" data-i18n="journeys.journey2.number">Cape Journal No.02</div>
+            </div>
+            <div class="journey-content">
+              <div class="journey-meta">
+                <span class="meta-item"><i data-lucide="clock"></i><span data-i18n="journeys.journey2.duration">1 Day</span></span>
+                <span class="meta-item"><i data-lucide="book-open"></i><span data-i18n="journeys.journey2.type">Cultural</span></span>
+              </div>
+              <h3 data-i18n="journeys.journey2.title">Colonialism, Migration & Identity: An Anthropological Walk</h3>
+              <p data-i18n="journeys.journey2.desc">From castle to kitchen. Understand this city through space and narrative.</p>
+              <div class="journey-for"><strong data-i18n="journeys.bestForLabel">Best For:</strong><span data-i18n="journeys.journey2.bestFor">Cultural enthusiasts, history lovers, first-timers seeking depth</span></div>
+              <div class="journey-tags"><span class="method-tag">Spatial Narrative</span></div>
+              <div class="journey-footer">
+                <span class="journey-price" data-i18n="journeys.journey2.price">From USD 215/day</span>
+                <a href="#contact" class="btn btn-journey"><span data-i18n="journeys.customize">Customize This</span><i data-lucide="arrow-right"></i></a>
+              </div>
+            </div>
+          </article>
+          <article class="journey-card animate-on-scroll">
+            <div class="journey-image">
+              <div class="image-placeholder"><i data-lucide="sunset"></i></div>
+              <div class="journey-number" data-i18n="journeys.journey3.number">Cape Journal No.03</div>
+            </div>
+            <div class="journey-content">
+              <div class="journey-meta">
+                <span class="meta-item"><i data-lucide="clock"></i><span data-i18n="journeys.journey3.duration">1 Day</span></span>
+                <span class="meta-item"><i data-lucide="camera"></i><span data-i18n="journeys.journey3.type">Classic</span></span>
+              </div>
+              <h3 data-i18n="journeys.journey3.title">If You Only Visit Once: The Golden Hour Peninsula</h3>
+              <p data-i18n="journeys.journey3.desc">Same attractions, different sequence. Transforming tourist itinerary into premium travel.</p>
+              <div class="journey-for"><strong data-i18n="journeys.bestForLabel">Best For:</strong><span data-i18n="journeys.journey3.bestFor">Couples, small groups, first-timers with high standards</span></div>
+              <div class="journey-tags"><span class="method-tag">Golden Hour Sequencing</span></div>
+              <div class="journey-footer">
+                <span class="journey-price" data-i18n="journeys.journey3.price">From USD 215/day</span>
+                <a href="#contact" class="btn btn-journey"><span data-i18n="journeys.customize">Customize This</span><i data-lucide="arrow-right"></i></a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="process" class="process-section">
+      <div class="section-container">
+        <div class="section-header">
+          <div class="section-label"><i data-lucide="sparkles"></i><span data-i18n="process.label">How It Works</span></div>
+          <h2 class="section-title" data-i18n="process.title">Your Journey in 3 Simple Steps</h2>
+        </div>
+        <div class="process-grid">
+          <div class="process-card animate-on-scroll">
+            <div class="process-number">01</div>
+            <div class="process-icon"><i data-lucide="message-square"></i></div>
+            <h3 data-i18n="process.step1.title">Share Your Interests</h3>
+            <p data-i18n="process.step1.desc">Take our 30-second interest quiz: birding, culture, photography, family, food & wine, pace preference, fitness level.</p>
+          </div>
+          <div class="process-connector"></div>
+          <div class="process-card animate-on-scroll">
+            <div class="process-number">02</div>
+            <div class="process-icon"><i data-lucide="file-text"></i></div>
+            <h3 data-i18n="process.step2.title">Receive Your Proposal</h3>
+            <p data-i18n="process.step2.desc">Within 48 hours: a sample itinerary with two budget options, transparent pricing, and customization notes.</p>
+          </div>
+          <div class="process-connector"></div>
+          <div class="process-card animate-on-scroll">
+            <div class="process-number">03</div>
+            <div class="process-icon"><i data-lucide="sun"></i></div>
+            <h3 data-i18n="process.step3.title">Dynamic Fine-Tuning</h3>
+            <p data-i18n="process.step3.desc">Real-time adjustments based on weather, tides, bloom seasons, migration patterns, and crowd levels.</p>
+          </div>
+        </div>
+        <div class="local-intel">
+          <h4 data-i18n="process.intel.title">Local Intelligence We Leverage</h4>
+          <div class="intel-grid">
+            <div class="intel-item"><i data-lucide="waves"></i><span>Tides</span></div>
+            <div class="intel-item"><i data-lucide="wind"></i><span>Wind</span></div>
+            <div class="intel-item"><i data-lucide="flower-2"></i><span>Bloom Season</span></div>
+            <div class="intel-item"><i data-lucide="bird"></i><span>Migration</span></div>
+            <div class="intel-item"><i data-lucide="users"></i><span>Crowd Patterns</span></div>
+            <div class="intel-item"><i data-lucide="sun"></i><span>Golden Hours</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="why-us" class="why-section">
+      <div class="section-container">
+        <div class="section-header">
+          <div class="section-label"><i data-lucide="award"></i><span data-i18n="whyUs.label">Why Choose Us</span></div>
+          <h2 class="section-title" data-i18n="whyUs.title">The Guagua Difference</h2>
+        </div>
+        <div class="why-grid">
+          <div class="why-card animate-on-scroll">
+            <div class="why-icon"><i data-lucide="graduation-cap"></i></div>
+            <h3 data-i18n="whyUs.scholars.title">Scholar-Led Guides</h3>
+            <p data-i18n="whyUs.scholars.desc">UCT doctoral researchers in African Studies, Anthropology & Ecology. Not scripted tours. Structured insight with academic frameworks.</p>
+            <div class="why-credentials"><span>Licensed Guides</span><span>Birding Club Members</span></div>
+          </div>
+          <div class="why-card animate-on-scroll">
+            <div class="why-icon"><i data-lucide="car"></i></div>
+            <h3 data-i18n="whyUs.flexible.title">Private & Flexible</h3>
+            <p data-i18n="whyUs.flexible.desc">Comfortable SUV with dedicated guide-driver. Itineraries adjust in real-time based on weather, tides, and your energy levels.</p>
+            <div class="why-credentials"><span>Toyota / Chevrolet SUV</span><span>2-8 Passengers</span></div>
+          </div>
+          <div class="why-card animate-on-scroll">
+            <div class="why-icon"><i data-lucide="wallet"></i></div>
+            <h3 data-i18n="whyUs.pricing.title">Transparent Pricing</h3>
+            <p data-i18n="whyUs.pricing.desc">Clear fee structure for vehicle and guide. Entrance fees and meals at your discretion. From Michelin to local gems.</p>
+            <div class="why-credentials"><span>From USD 215/day</span><span>Guide + Vehicle + Fuel</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="section-container">
+        <div class="section-header">
+          <div class="section-label"><i data-lucide="mail"></i><span data-i18n="contact.label">Start Planning</span></div>
+          <h2 class="section-title" data-i18n="contact.title">Let's Create Your Perfect Journey</h2>
+          <p class="section-desc" data-i18n="contact.desc">Whether it is product inquiries, business partnerships, or simply sharing your travel dreams. We would love to hear from you.</p>
+        </div>
+        <div class="contact-cta">
+          <div class="cta-mascot">🐸</div>
+          <p data-i18n="contact.cta">Tell us what you want to see: birding, culture, photography, family, food & wine. We will design your perfect journey.</p>
+          <div class="cta-buttons">
+            <button class="btn btn-contact btn-email" id="btnEmail"><i data-lucide="mail"></i><span data-i18n="contact.email">Email Us</span></button>
+            <button class="btn btn-contact btn-whatsapp" id="btnWhatsApp"><i data-lucide="message-circle"></i><span>WhatsApp</span></button>
+            <button class="btn btn-contact btn-wechat" id="btnWeChat">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M8.691 2.188C3.891 2.188 0 5.476 0 9.53c0 2.212 1.17 4.203 3.002 5.55a.59.59 0 01.213.665l-.39 1.48c-.019.07-.048.141-.048.213 0 .163.13.295.29.295a.326.326 0 00.167-.054l1.903-1.114a.864.864 0 01.717-.098 10.16 10.16 0 002.837.403c.276 0 .543-.027.811-.05-.857-2.578.157-4.972 1.932-6.446 1.703-1.415 3.882-1.98 5.853-1.838-.576-3.583-4.196-6.348-8.596-6.348zM5.785 5.991c.642 0 1.162.529 1.162 1.18a1.17 1.17 0 01-1.162 1.178A1.17 1.17 0 014.623 7.17c0-.651.52-1.18 1.162-1.18zm5.813 0c.642 0 1.162.529 1.162 1.18a1.17 1.17 0 01-1.162 1.178 1.17 1.17 0 01-1.162-1.178c0-.651.52-1.18 1.162-1.18zm5.34 2.867c-1.797-.052-3.746.512-5.28 1.786-1.72 1.428-2.687 3.72-1.78 6.22.942 2.453 3.666 4.229 6.884 4.229.826 0 1.622-.12 2.361-.336a.722.722 0 01.598.082l1.584.926a.272.272 0 00.139.045c.133 0 .241-.108.241-.243 0-.06-.024-.12-.04-.177l-.324-1.232a.492.492 0 01.177-.554c1.526-1.12 2.502-2.78 2.502-4.635 0-3.282-3.004-6.059-7.062-6.11zm-1.907 2.962c.535 0 .969.44.969.982a.976.976 0 01-.969.983.976.976 0 01-.969-.983c0-.542.434-.982.97-.982zm4.844 0c.535 0 .969.44.969.982a.976.976 0 01-.969.983.976.976 0 01-.969-.983c0-.542.434-.982.97-.982z"/></svg>
+              <span data-i18n="contact.wechat">WeChat</span>
+            </button>
+          </div>
+        </div>
+        <div class="contact-info-grid">
+          <div class="contact-card">
+            <div class="contact-icon"><i data-lucide="map-pin"></i></div>
+            <div class="contact-detail">
+              <span class="contact-label" data-i18n="contact.coverage">Coverage Area</span>
+              <span class="contact-value">Cape Town · Garden Route · Eastern Cape · Kruger</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span class="footer-emoji">🐸</span>
+            <div><span class="footer-name">Guagua Africa Travel</span><span class="footer-tagline" data-i18n="footer.tagline">Discover the Depth & Soul of South Africa</span></div>
+          </div>
+          <p class="footer-desc" data-i18n="footer.desc">Scholar-led expeditions by UCT doctoral researchers. Eco-birding, cultural heritage & bespoke private tours.</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-col">
+            <h4 data-i18n="footer.quickLinks">Quick Links</h4>
+            <ul><li><a href="#about" data-i18n="nav.about">About Us</a></li><li><a href="#services" data-i18n="nav.services">Services</a></li><li><a href="#journeys" data-i18n="nav.journeys">Journeys</a></li><li><a href="#process" data-i18n="nav.process">How It Works</a></li></ul>
+          </div>
+          <div class="footer-col">
+            <h4 data-i18n="footer.coverage">Coverage</h4>
+            <ul><li data-i18n="footer.capeTown">Cape Town</li><li data-i18n="footer.gardenRoute">Garden Route</li><li data-i18n="footer.easternCape">Eastern Cape</li><li data-i18n="footer.kruger">Kruger National Park</li></ul>
+          </div>
+          <div class="footer-col">
+            <h4 data-i18n="footer.contact">Contact</h4>
+            <ul><li>contact@guaguatravel.com</li><li data-i18n="footer.wechatLabel">WeChat: capeguagua</li><li>WhatsApp: +27 83 488 7587</li></ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="copyright">© <span class="year">2025</span> Guagua Africa Travel. <span data-i18n="footer.rights">All rights reserved.</span></p>
+        <p class="footer-note" data-i18n="footer.crafted">Crafted with care in Cape Town</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal-overlay" id="contactModal">
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose"><i data-lucide="x"></i></button>
+      <div class="modal-header"><span class="modal-emoji">🐸</span><h3 id="modalTitle">Contact Us</h3></div>
+      <div class="modal-body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="js/translations.js"></script>
+  <script src="js/scroll.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

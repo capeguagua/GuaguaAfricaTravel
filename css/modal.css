@@ -1,0 +1,142 @@
+/* ========================================
+   Modal CSS
+   ======================================== */
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  padding: 24px;
+}
+
+.modal-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-content {
+  background: var(--white);
+  padding: 40px;
+  border-radius: var(--radius-2xl);
+  max-width: 420px;
+  width: 100%;
+  position: relative;
+  transform: scale(0.9) translateY(20px);
+  transition: all 0.4s var(--ease-spring);
+  box-shadow: var(--shadow-xl);
+}
+
+.modal-overlay.active .modal-content {
+  transform: scale(1) translateY(0);
+}
+
+.modal-close {
+  position: absolute;
+  top: 16px; right: 16px;
+  width: 36px; height: 36px;
+  border: none;
+  background: var(--gray-100);
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--duration) var(--ease-out);
+}
+
+.modal-close:hover {
+  background: var(--gray-200);
+  transform: rotate(90deg);
+}
+
+.modal-close svg { 
+  width: 18px; 
+  height: 18px; 
+  color: var(--gray-600); 
+}
+
+.modal-header { 
+  text-align: center; 
+  margin-bottom: 28px; 
+}
+
+.modal-emoji { 
+  font-size: 3rem; 
+  margin-bottom: 12px; 
+  display: block; 
+}
+
+.modal-header h3 {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--forest-800);
+}
+
+.modal-body { text-align: center; }
+
+.modal-info-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 20px;
+  background: var(--sage-50);
+  border-radius: var(--radius-lg);
+  margin-bottom: 12px;
+  transition: all var(--duration) var(--ease-out);
+}
+
+.modal-info-item:hover { background: var(--sage-100); }
+.modal-info-item:last-child { margin-bottom: 0; }
+
+.modal-info-icon {
+  width: 44px; height: 44px;
+  background: var(--white);
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.modal-info-icon svg { 
+  width: 22px; 
+  height: 22px; 
+  color: var(--sage-600); 
+}
+
+.modal-info-content { 
+  text-align: left; 
+  flex: 1; 
+}
+
+.modal-info-label {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--gray-400);
+  margin-bottom: 2px;
+}
+
+.modal-info-value {
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--forest-800);
+  word-break: break-all;
+}
+
+.modal-info-value a { 
+  color: var(--sage-600); 
+  text-decoration: none; 
+}
+
+.modal-info-value a:hover { color: var(--frog-600); }

@@ -1,0 +1,156 @@
+/* ========================================
+   Base CSS - Variables, Reset & Typography
+   ======================================== */
+
+:root {
+  /* Color Palette - Healing Green */
+  --frog-50: #ECFDF5;
+  --frog-100: #D1FAE5;
+  --frog-200: #A7F3D0;
+  --frog-300: #6EE7B7;
+  --frog-400: #34D399;
+  --frog-500: #10B981;
+  --frog-600: #059669;
+  --frog-700: #047857;
+  --frog-800: #065F46;
+  --frog-900: #064E3B;
+  
+  /* Sage Green */
+  --sage-50: #F5FBF8;
+  --sage-100: #E6F4ED;
+  --sage-200: #C3E4D4;
+  --sage-300: #9DD4BC;
+  --sage-400: #6FC09E;
+  --sage-500: #4BA882;
+  --sage-600: #3D8D6C;
+  --sage-700: #326F56;
+  
+  /* Forest Green */
+  --forest-700: #2D5A45;
+  --forest-800: #234838;
+  --forest-900: #1A3629;
+  
+  /* Warm Tones */
+  --cream: #FEFDF9;
+  --cream-warm: #FCF9F3;
+  --sand: #F7F3EB;
+  --gold-100: #FEF9E7;
+  --gold-400: #FBBF24;
+  
+  /* Neutrals */
+  --white: #FFFFFF;
+  --gray-50: #FAFAF9;
+  --gray-100: #F5F5F4;
+  --gray-200: #E7E5E4;
+  --gray-300: #D6D3D1;
+  --gray-400: #A8A29E;
+  --gray-500: #78716C;
+  --gray-600: #57534E;
+  --gray-700: #44403C;
+  --gray-800: #292524;
+  --gray-900: #1C1917;
+  
+  /* Typography */
+  --font-display: 'Quicksand', 'Nunito', sans-serif;
+  --font-body: 'Nunito', 'Quicksand', sans-serif;
+  --font-cn: 'Noto Sans SC', 'PingFang SC', sans-serif;
+  
+  /* Border Radius */
+  --radius-sm: 12px;
+  --radius-md: 16px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-2xl: 36px;
+  --radius-full: 9999px;
+  
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(16, 185, 129, 0.06);
+  --shadow-md: 0 4px 16px rgba(16, 185, 129, 0.08);
+  --shadow-lg: 0 8px 32px rgba(16, 185, 129, 0.1);
+  --shadow-xl: 0 12px 48px rgba(16, 185, 129, 0.12);
+  
+  /* Animation */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --duration: 0.35s;
+  --duration-slow: 0.5s;
+}
+
+/* Reset */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--cream);
+  color: var(--gray-700);
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+/* Chinese font support */
+html[lang="zh-CN"] body,
+html[lang="zh-CN"] h1,
+html[lang="zh-CN"] h2,
+html[lang="zh-CN"] h3,
+html[lang="zh-CN"] h4,
+html[lang="zh-CN"] p,
+html[lang="zh-CN"] span,
+html[lang="zh-CN"] a {
+  font-family: var(--font-cn), var(--font-body);
+}
+
+img { 
+  max-width: 100%; 
+  height: auto; 
+  display: block; 
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: all var(--duration) var(--ease-out);
+}
+
+ul, ol {
+  list-style: none;
+}
+
+/* Selection */
+::selection { 
+  background: var(--frog-200); 
+  color: var(--forest-900); 
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: var(--cream); }
+::-webkit-scrollbar-thumb { 
+  background: var(--sage-300); 
+  border-radius: var(--radius-full); 
+}
+::-webkit-scrollbar-thumb:hover { background: var(--sage-400); }
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+a:focus-visible, 
+button:focus-visible {
+  outline: 3px solid var(--frog-400);
+  outline-offset: 3px;
+}

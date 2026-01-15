@@ -1,0 +1,184 @@
+{
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "journeys": "Journeys",
+    "process": "How It Works",
+    "startPlanning": "Start Planning"
+  },
+  "hero": {
+    "badge": "Scholar-Led · Deep Exploration · Bespoke",
+    "titleLine1": "Discover the Depth",
+    "titleLine2": "& Soul of South Africa",
+    "subtitle": "Led by UCT doctoral researchers specializing in African Studies, Anthropology & Ecology. We transform travel into profound discovery.",
+    "evidence": {
+      "guides": "UCT Scholar Guides",
+      "focus": "Eco & Cultural Focus",
+      "private": "Private & Flexible",
+      "local": "Local Intelligence"
+    },
+    "cta": {
+      "primary": "Start Your Journey",
+      "secondary": "View Sample Itineraries"
+    },
+    "imageBadge": "Travel with Guagua"
+  },
+  "about": {
+    "label": "About Us",
+    "title": "A Boutique Travel Experience Unlike Any Other",
+    "whoWeAre": {
+      "title": "Who We Are",
+      "content": "Guagua Africa Travel is a boutique travel service rooted in Cape Town. Our founding team comprises doctoral researchers from the University of Cape Town (UCT), specializing in African Studies, Anthropology, and Ecology."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "content": "We bridge the gap between sightseeing and true exploration. Every journey is a perfect fusion of academic insight and experiential travel. You do not just see the scenery, you understand the soul of South Africa."
+    },
+    "ethics": {
+      "title": "Our Ethics",
+      "content": "No feeding wildlife · No chasing animals · No disturbing ecosystems · Respectful cultural engagement · Supporting local communities"
+    },
+    "travelers": {
+      "title": "Our Ideal Travel Companions",
+      "nature": {
+        "title": "Nature & Eco Enthusiasts",
+        "desc": "Birders, botanists, wildlife photographers"
+      },
+      "cultural": {
+        "title": "Cultural Explorers",
+        "desc": "History, anthropology, heritage seekers"
+      },
+      "family": {
+        "title": "Educational Families",
+        "desc": "Nature education & scientific discovery"
+      },
+      "discerning": {
+        "title": "Discerning Travelers",
+        "desc": "Couples & small groups seeking depth"
+      },
+      "notFor": "Not for: Travelers seeking rushed itineraries, budget tours, or checkbox tourism. We prioritize quality over quantity."
+    }
+  },
+  "services": {
+    "label": "Our Services",
+    "title": "Four Core Experience Modules",
+    "eco": {
+      "tag": "Eco-Tourism & Birding",
+      "title": "Deep Ecology & Birding",
+      "desc": "Led by certified birding experts. Track endemic species including African Penguins, Blue Cranes, and migratory swifts across wetlands and reserves."
+    },
+    "cultural": {
+      "tag": "Cultural Heritage",
+      "title": "Cape Town Cultural & Heritage",
+      "desc": "City walks through the lens of history and anthropology. Explore the Castle of Good Hope, Bo-Kaap Cape Malay culture, and Chapman's Peak Drive."
+    },
+    "garden": {
+      "tag": "Garden Route",
+      "title": "Garden Route & Overland",
+      "desc": "Flexible pacing from Packed to Slow Travel. Explore Mossel Bay caves, Knysna lagoon, Tsitsikamma trails, and Oudtshoorn ostrich country."
+    },
+    "educational": {
+      "tag": "Educational Tours",
+      "title": "Family & Educational",
+      "desc": "Leveraging UCT resources, we design nature education programs. Marine biology, botany, African art experiences, and university campus visits."
+    }
+  },
+  "journeys": {
+    "label": "Featured Journeys",
+    "title": "Scholar-Designed Sample Itineraries",
+    "desc": "Each journey is fully customizable based on your interests, schedule, and energy levels.",
+    "journey1": {
+      "badge": "Most Popular",
+      "number": "Cape Journal No.01",
+      "duration": "1-2 Days",
+      "type": "Eco Focus",
+      "title": "With the Migrants: Cape Peninsula Eco-Observation & Birding",
+      "desc": "A scholar-designed ecological observation sample route. You are not here to watch birds, but to learn how to observe nature.",
+      "bestFor": "Birders, photographers, nature lovers, families 8+",
+      "price": "From USD 215/day"
+    },
+    "journey2": {
+      "number": "Cape Journal No.02",
+      "duration": "1 Day",
+      "type": "Cultural",
+      "title": "Colonialism, Migration & Identity: An Anthropological Walk",
+      "desc": "From castle to kitchen. Understand this city through space and narrative.",
+      "bestFor": "Cultural enthusiasts, history lovers, first-timers seeking depth",
+      "price": "From USD 215/day"
+    },
+    "journey3": {
+      "number": "Cape Journal No.03",
+      "duration": "1 Day",
+      "type": "Classic",
+      "title": "If You Only Visit Once: The Golden Hour Peninsula",
+      "desc": "Same attractions, different sequence. Transforming tourist itinerary into premium travel.",
+      "bestFor": "Couples, small groups, first-timers with high standards",
+      "price": "From USD 215/day"
+    },
+    "customize": "Customize This",
+    "bestForLabel": "Best For:"
+  },
+  "process": {
+    "label": "How It Works",
+    "title": "Your Journey in 3 Simple Steps",
+    "step1": {
+      "title": "Share Your Interests",
+      "desc": "Take our 30-second interest quiz: birding, culture, photography, family, food & wine, pace preference, fitness level."
+    },
+    "step2": {
+      "title": "Receive Your Proposal",
+      "desc": "Within 48 hours: a sample itinerary with two budget options, transparent pricing, and customization notes."
+    },
+    "step3": {
+      "title": "Dynamic Fine-Tuning",
+      "desc": "Real-time adjustments based on weather, tides, bloom seasons, migration patterns, and crowd levels."
+    },
+    "intel": {
+      "title": "Local Intelligence We Leverage"
+    }
+  },
+  "whyUs": {
+    "label": "Why Choose Us",
+    "title": "The Guagua Difference",
+    "scholars": {
+      "title": "Scholar-Led Guides",
+      "desc": "UCT doctoral researchers in African Studies, Anthropology & Ecology. Not scripted tours. Structured insight with academic frameworks."
+    },
+    "flexible": {
+      "title": "Private & Flexible",
+      "desc": "Comfortable SUV with dedicated guide-driver. Itineraries adjust in real-time based on weather, tides, and your energy levels."
+    },
+    "pricing": {
+      "title": "Transparent Pricing",
+      "desc": "Clear fee structure for vehicle and guide. Entrance fees and meals at your discretion. From Michelin to local gems."
+    }
+  },
+  "contact": {
+    "label": "Start Planning",
+    "title": "Let's Create Your Perfect Journey",
+    "desc": "Whether it is product inquiries, business partnerships, or simply sharing your travel dreams. We would love to hear from you.",
+    "cta": "Tell us what you want to see: birding, culture, photography, family, food & wine. We will design your perfect journey.",
+    "email": "Email Us",
+    "wechat": "WeChat",
+    "coverage": "Coverage Area"
+  },
+  "footer": {
+    "tagline": "Discover the Depth & Soul of South Africa",
+    "desc": "Scholar-led expeditions by UCT doctoral researchers. Eco-birding, cultural heritage & bespoke private tours.",
+    "quickLinks": "Quick Links",
+    "coverage": "Coverage",
+    "contact": "Contact",
+    "wechatLabel": "WeChat: capeguagua",
+    "crafted": "Crafted with care in Cape Town",
+    "capeTown": "Cape Town",
+    "gardenRoute": "Garden Route",
+    "easternCape": "Eastern Cape",
+    "kruger": "Kruger National Park",
+    "rights": "All rights reserved."
+  },
+  "modal": {
+    "email": "Email Us",
+    "whatsapp": "WhatsApp",
+    "wechat": "WeChat"
+  }
+}
