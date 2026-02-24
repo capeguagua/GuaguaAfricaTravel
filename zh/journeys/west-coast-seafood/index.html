@@ -297,11 +297,11 @@
         imagePreviewPanel.classList.toggle('is-loading', Boolean(loading));
       };
 
-      const openImagePreview = (src, alt = '') => {
+      const openImagePreview = (src, alt = '', caption = alt) => {
         if (!imagePreviewPanel || !imagePreviewImage || !src) return;
         if (imagePreviewCaption) {
-          imagePreviewCaption.textContent = alt;
-          imagePreviewCaption.hidden = !alt;
+          imagePreviewCaption.textContent = caption;
+          imagePreviewCaption.hidden = !caption;
         }
         const requestId = ++previewRequestId;
         setPreviewLoading(true);
@@ -489,10 +489,11 @@
             event.preventDefault();
             const previewSrc = previewTrigger.getAttribute('data-preview-src') ?? '';
             const previewAlt = previewTrigger.getAttribute('data-preview-alt') ?? '';
+            const previewTitle = previewTrigger.getAttribute('data-preview-title') ?? previewAlt;
             if (previewSrc) {
               closeMenu();
               hideContextMenu();
-              openImagePreview(previewSrc, previewAlt);
+              openImagePreview(previewSrc, previewAlt, previewTitle);
             }
             return;
           }
